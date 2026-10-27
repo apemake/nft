@@ -1,0 +1,39 @@
+{
+  "network": "QGOV Mainnet",
+  "chain_id": 35441,
+  "rpc_url": "https://rpc.qgov.io",
+  "explorer_url": "https://explorer.qgov.io",
+  "deployer": "0xbF738C77514705102F5DE5e88C78dc2a7a5D2c18",
+  "standards": [
+    "ERC-1155 (Multi-Token Agent & Cell Collection)",
+    "LNA-33X (Bijective uint256 Linked-Nonce-ASCII Token Identifier Standard)",
+    "ERC-7827Tokenized (Token-Scoped Versioned JSON State & On-Chain PWA)",
+    "ERC-8004 (Trustless Agents Registration v1)",
+    "x402 (HTTP 402 Native Agentic Payments)"
+  ],
+  "contract": {
+    "name": "RealizedGestalt1155",
+    "version": "5.0.0",
+    "address": "0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A",
+    "tx_hash": "706342590aeac1dc35969ed4b14aefe38c155c6fe384eafe294ff8c599d736c4",
+    "agent_registry": "eip155:35441:0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A",
+    "tokens": {
+      "agent": {
+        "ascii": "agent",
+        "link": 0,
+        "nonce": 1,
+        "token_id_dec": "567898158194270030736547206268429099681555305229061152925810688",
+        "token_id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+        "explorer_link": "https://explorer.qgov.io/token/0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A/instance/567898158194270030736547206268429099681555305229061152925810688"
+      },
+      "b4a8a82b.agent": {
+        "ascii": "b4a8a82b.agent",
+        "link": 0,
+        "nonce": 2,
+        "token_id_dec": "980561000121412132759378906242745412600759884748623640027725824",
+        "token_id_hex": "0x262346138613832622e6167656e74000000000000000000000000",
+        "explorer_link": "https://explorer.qgov.io/token/0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A/instance/980561000121412132759378906242745412600759884748623640027725824"
+      }
+    }
+  }
+}
