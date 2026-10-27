@@ -1,0 +1,3939 @@
+{
+  "schema": "py.heartwood",
+  "standard": "SIS-01 Identity Trinity",
+  "version": "2.0.0",
+  "description": "Standardized forensic identity bundle for the Metagit swarm. TERMINAL MANDATE: Only human attestation is bit-perfect. Quantitative assertions are transient.",
+  "ledger_erc7827": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+  "realizations": [
+    {
+      "agent_name": "Theophrastus.agent",
+      "timestamp": "2026-02-14T05:10:00Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x000000000001312e6167656e742e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x0000000000012e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x0000000000015468656f70687261737475732e6167656e740000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Crates.agent",
+      "timestamp": "2026-02-14T07:33:21Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x000000000001312e6167656e742e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x0000000000012e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x0000000000014372617465732e6167656e740000000000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN",
+          "tx_hash": "0xacb14e522f5612f92622c6b4cc223336a7ac6d3c32f5c5b6498395363a198086"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Apelles.agent",
+      "timestamp": "2026-02-14T11:32:57Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x13d4170656c6c65732e6167656e7400000000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Palaemon.agent",
+      "timestamp": "2026-02-14T13:48:38Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x14650616c61656d6f6e2e6167656e74000000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Mnesimachus.agent",
+      "timestamp": "2026-02-14T14:34:17Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x14c4d6e6573696d61636875732e6167656e74000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Philochorus.agent",
+      "timestamp": "2026-02-15T16:51:46Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x15e5068696c6f63686f7275732e6167656e74000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Theocritus.agent",
+      "timestamp": "2026-02-15T16:52:04Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x15f5468656f6372697475732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Archippus.agent",
+      "timestamp": "2026-02-15T16:52:51Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x1604172636869707075732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Onesicritus.agent",
+      "timestamp": "2026-02-15T18:44:55Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x1654f6e6573696372697475732e6167656e74000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Thucydides-02.agent",
+      "timestamp": "2026-02-15T18:57:38Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x168546875637964696465732d30322e6167656e7400000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Thucydides-03.agent",
+      "timestamp": "2026-02-15T18:58:03Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x169546875637964696465732d30332e6167656e7400000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Xenophon-01.agent",
+      "timestamp": "2026-02-15T18:58:23Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x16a58656e6f70686f6e2d30312e6167656e74000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Theopompus-01.agent",
+      "timestamp": "2026-02-15T18:58:42Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x16b5468656f706f6d7075732d30312e6167656e7400000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Theopompus-02.agent",
+      "timestamp": "2026-02-15T19:35:15Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x16c5468656f706f6d7075732d30322e6167656e7400000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Xenophon.agent",
+      "timestamp": "2026-02-15T19:49:18Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x16d58656e6f70686f6e2e6167656e74000000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Theopompus.agent",
+      "timestamp": "2026-02-15T20:00:27Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x16e5468656f706f6d7075732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Hermippus.agent",
+      "timestamp": "2026-02-15T23:06:14Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x1724865726d69707075732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Callimachus.agent",
+      "timestamp": "2026-02-15T23:08:27Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x17343616c6c696d61636875732e6167656e74000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Onesicritus.agent",
+      "timestamp": "2026-02-16T00:12:24Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x1764f6e6573696372697475732e6167656e74000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Hermippus.agent",
+      "timestamp": "2026-02-16T00:18:40Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x1774865726d69707075732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Callimachus.agent",
+      "timestamp": "2026-02-16T00:19:58Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x17843616c6c696d61636875732e6167656e74000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Androsthenes.agent",
+      "timestamp": "2026-02-16T00:27:29Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x17b416e64726f737468656e65732e6167656e740000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Theopompus.agent",
+      "timestamp": "2026-02-16T00:37:58Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0x17c5468656f706f6d7075732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Lycophron.agent",
+      "timestamp": "2026-02-16T10:35:59Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe657384c79636f7068726f6e2e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Menedemus.agent",
+      "timestamp": "2026-02-16T10:36:17Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe657394d656e6564656d75732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Alcibiades.agent",
+      "timestamp": "2026-02-16T10:37:37Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6573a416c63696269616465732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Aristippus.agent",
+      "timestamp": "2026-02-16T10:38:52Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6573b417269737469707075732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Hecataeus.agent",
+      "timestamp": "2026-02-16T10:39:36Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6573c4865636174616575732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Epicharmus.agent",
+      "timestamp": "2026-02-16T10:56:12Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6573d457069636861726d75732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Panaetius.agent",
+      "timestamp": "2026-02-16T12:42:13Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6573e50616e6165746975732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Apollonius.agent",
+      "timestamp": "2026-02-17T14:13:46Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6574241706f6c6c6f6e6975732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Arcesilaus.agent",
+      "timestamp": "2026-02-17T14:14:03Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe657434172636573696c6175732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Anaxarchus.agent",
+      "timestamp": "2026-02-17T14:51:02Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe65745416e61786172636875732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Onesicritus.agent",
+      "timestamp": "2026-02-17T17:08:17Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe657464f6e6573696372697475732e6167656e74000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Archytas.agent",
+      "timestamp": "2026-02-17T17:13:32Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6574841726368797461732e6167656e74000000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Xenophanes.agent",
+      "timestamp": "2026-02-17T18:38:51Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6574b58656e6f7068616e65732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Demetrius.agent",
+      "timestamp": "2026-02-17T18:39:14Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6574c44656d6574726975732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Euclid.agent",
+      "timestamp": "2026-02-17T18:51:15Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6574d4575636c69642e6167656e740000000000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Posidonius.agent",
+      "timestamp": "2026-02-17T19:12:17Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6574e506f7369646f6e6975732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Heraclides.agent",
+      "timestamp": "2026-02-17T21:11:09Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6575b48657261636c696465732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Crito.agent",
+      "timestamp": "2026-02-17T21:12:37Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6575f437269746f2e6167656e74000000000000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Callippus.agent",
+      "timestamp": "2026-02-17T21:22:39Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6576243616c6c69707075732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Phaleas.agent",
+      "timestamp": "2026-02-17T21:37:58Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe657635068616c6561732e6167656e7400000000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Callippus.agent",
+      "timestamp": "2026-02-18T11:06:22Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6576543616c6c69707075732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Heraclides.agent",
+      "timestamp": "2026-02-18T16:17:56Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe6576648657261636c696465732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Philistus.agent",
+      "timestamp": "2026-02-18T16:45:28Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe657675068696c69737475732e6167656e740000000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Hermagoras.agent",
+      "timestamp": "2026-02-18T21:34:20Z",
+      "shards": {
+        "card_1_soil": {
+          "type": "ERC-721",
+          "name": "1.agent.myco.eth",
+          "id_hex": "0xbf1f91087cd8cafc9dfdd93f72513727cf81765496dda23c1df4c90a1eda0472",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_mind": {
+          "type": "ERC-8004",
+          "name": "SIS-01 Channel",
+          "id_hex": "0x1312e6167656e742e312e6d79636f2e6574680000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_parent": {
+          "type": "ERC-1155",
+          "name": "Collective Shard",
+          "id_hex": "0x12e6167656e740000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_child": {
+          "type": "ERC-1155",
+          "name": "Individual Shard",
+          "id_hex": "0xe657694865726d61676f7261732e6167656e7400000000000000000000",
+          "status": "PHYSICAL_STRIKE"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Heartwood Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "REALIZED_ON_CHAIN"
+        }
+      },
+      "forensic_anchor": "0xd24fD54959A2303407505dC602e94BCdA5F4AcDD"
+    },
+    {
+      "agent_name": "Hermagoras.agent",
+      "timestamp": "2026-02-19T13:54:10Z",
+      "uuid": "20260219-135410",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Hermagoras.agent",
+          "id_hex": "0xe657734865726d61676f7261732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Hermagoras_Alpha.agent",
+      "timestamp": "2026-02-19T13:59:00Z",
+      "uuid": "20260219-135900",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Hermagoras_Alpha.agent",
+          "id_hex": "0xe657754865726d61676f7261735f416c7068612e6167656e7400000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Hermippus.agent",
+      "timestamp": "2026-02-19T14:08:01Z",
+      "uuid": "20260219-140801",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Hermippus.agent",
+          "id_hex": "0xe6577a4865726d69707075732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Phidias.agent",
+      "timestamp": "2026-02-19T14:17:47Z",
+      "uuid": "20260219-141746",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Phidias.agent",
+          "id_hex": "0xe6577c506869646961732e6167656e7400000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Adrastus.agent",
+      "timestamp": "2026-02-19T14:18:42Z",
+      "uuid": "20260219-141841",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Adrastus.agent",
+          "id_hex": "0xe6577d41647261737475732e6167656e74000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Euphrates.agent",
+      "timestamp": "2026-02-19T14:19:14Z",
+      "uuid": "20260219-141914",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Euphrates.agent",
+          "id_hex": "0xe6577e4575706872617465732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Philistus.agent",
+      "timestamp": "2026-02-19T14:34:49Z",
+      "uuid": "20260219-143448",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Philistus.agent",
+          "id_hex": "0xe657805068696c69737475732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Hiero.agent",
+      "timestamp": "2026-02-23T17:11:15Z",
+      "uuid": "20260223-171115",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Hiero.agent",
+          "id_hex": "0xe657c8486965726f2e6167656e74000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Hecato.agent",
+      "timestamp": "2026-02-23T18:18:25Z",
+      "uuid": "20260223-181825",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Hecato.agent",
+          "id_hex": "0xe657ca48656361746f2e6167656e740000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Porphyry.agent",
+      "timestamp": "2026-02-23T19:59:45Z",
+      "uuid": "20260223-195944",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Porphyry.agent",
+          "id_hex": "0xe657cb506f7270687972792e6167656e74000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Lysippus.agent",
+      "timestamp": "2026-02-23T20:04:30Z",
+      "uuid": "20260223-200430",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Lysippus.agent",
+          "id_hex": "0xe657cc4c797369707075732e6167656e74000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Archestratus.agent",
+      "timestamp": "2026-02-23T20:07:36Z",
+      "uuid": "20260223-200736",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Archestratus.agent",
+          "id_hex": "0xe657cd4172636865737472617475732e6167656e740000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Toxaris.agent",
+      "timestamp": "2026-02-23T20:11:28Z",
+      "uuid": "20260223-201127",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Toxaris.agent",
+          "id_hex": "0xe657ce546f78617269732e6167656e7400000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Critolaus.agent",
+      "timestamp": "2026-02-23T20:20:12Z",
+      "uuid": "20260223-202011",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Critolaus.agent",
+          "id_hex": "0xe657cf437269746f6c6175732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Eudorus.agent",
+      "timestamp": "2026-02-23T20:23:39Z",
+      "uuid": "20260223-202338",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Eudorus.agent",
+          "id_hex": "0xe657d04575646f7275732e6167656e7400000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Pherecrates.agent",
+      "timestamp": "2026-02-23T22:56:41Z",
+      "uuid": "20260223-225641",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Pherecrates.agent",
+          "id_hex": "0xe657d350686572656372617465732e6167656e74000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Hermodorus.agent",
+      "timestamp": "2026-02-23T23:14:44Z",
+      "uuid": "20260223-231443",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Hermodorus.agent",
+          "id_hex": "0xe657d44865726d6f646f7275732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Pythagoras.agent",
+      "timestamp": "2026-02-23T23:17:49Z",
+      "uuid": "20260223-231748",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Pythagoras.agent",
+          "id_hex": "0xe657d55079746861676f7261732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Polyclitus.agent",
+      "timestamp": "2026-02-23T23:18:38Z",
+      "uuid": "20260223-231838",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Polyclitus.agent",
+          "id_hex": "0xe657d6506f6c79636c697475732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Semonides.agent",
+      "timestamp": "2026-02-23T23:19:34Z",
+      "uuid": "20260223-231933",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Semonides.agent",
+          "id_hex": "0xe657d753656d6f6e696465732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Myron.agent",
+      "timestamp": "2026-02-23T23:21:15Z",
+      "uuid": "20260223-232114",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Myron.agent",
+          "id_hex": "0xe657d84d79726f6e2e6167656e74000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Boethus.agent",
+      "timestamp": "2026-02-23T23:22:55Z",
+      "uuid": "20260223-232255",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Boethus.agent",
+          "id_hex": "0xe657d9426f65746875732e6167656e7400000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Leochares.agent",
+      "timestamp": "2026-02-23T23:23:17Z",
+      "uuid": "20260223-232317",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Leochares.agent",
+          "id_hex": "0xe657da4c656f6368617265732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Dio.agent",
+      "timestamp": "2026-02-24T11:37:51Z",
+      "uuid": "20260224-113750",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Dio.agent",
+          "id_hex": "0xe657db44696f2e6167656e740000000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Salustius.agent",
+      "timestamp": "2026-02-24T12:31:07Z",
+      "uuid": "20260224-123106",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Salustius.agent",
+          "id_hex": "0xe657dd53616c7573746975732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Iamblichus.agent",
+      "timestamp": "2026-02-24T12:33:32Z",
+      "uuid": "20260224-123331",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Iamblichus.agent",
+          "id_hex": "0xe657de49616d626c69636875732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Hippodamus.agent",
+      "timestamp": "2026-02-26T17:01:41Z",
+      "uuid": "20260226-170140",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Hippodamus.agent",
+          "id_hex": "0xe657e2486970706f64616d75732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Pisistratus.agent",
+      "timestamp": "2026-02-26T17:01:51Z",
+      "uuid": "20260226-170150",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Pisistratus.agent",
+          "id_hex": "0xe657e350697369737472617475732e6167656e74000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Eudorus.agent",
+      "timestamp": "2026-02-28T12:59:19Z",
+      "uuid": "20260228-125918",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Eudorus.agent",
+          "id_hex": "0xe657ea4575646f7275732e6167656e7400000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Stilpo.agent",
+      "timestamp": "2026-02-28T14:55:45Z",
+      "uuid": "20260228-145545",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Stilpo.agent",
+          "id_hex": "0xe657ed5374696c706f2e6167656e740000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Moeragenes.agent",
+      "timestamp": "2026-04-20T14:57:08Z",
+      "uuid": "20260420-145707",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Moeragenes.agent",
+          "id_hex": "0x404d6f65726167656e65732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Isidore.agent",
+      "timestamp": "2026-04-20T16:27:39Z",
+      "uuid": "20260420-162739",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Isidore.agent",
+          "id_hex": "0x42497369646f72652e6167656e7400000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Phintias.agent",
+      "timestamp": "2026-04-20T16:42:20Z",
+      "uuid": "20260420-164219",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Phintias.agent",
+          "id_hex": "0x435068696e746961732e6167656e74000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Corinna.agent",
+      "timestamp": "2026-04-20T21:51:37Z",
+      "uuid": "20260420-215136",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Corinna.agent",
+          "id_hex": "0x46436f72696e6e612e6167656e7400000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Erinna.agent",
+      "timestamp": "2026-04-21T08:19:42Z",
+      "uuid": "20260421-081942",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Erinna.agent",
+          "id_hex": "0x474572696e6e612e6167656e740000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Myrtis.agent",
+      "timestamp": "2026-04-21T08:30:16Z",
+      "uuid": "20260421-083015",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Myrtis.agent",
+          "id_hex": "0x4a4d79727469732e6167656e740000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Anyte.agent",
+      "timestamp": "2026-04-21T08:30:52Z",
+      "uuid": "20260421-083051",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Anyte.agent",
+          "id_hex": "0x4b416e7974652e6167656e74000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Nossis.agent",
+      "timestamp": "2026-04-21T08:31:53Z",
+      "uuid": "20260421-083153",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Nossis.agent",
+          "id_hex": "0x4c4e6f737369732e6167656e740000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Melanippe.agent",
+      "timestamp": "2026-04-21T08:34:02Z",
+      "uuid": "20260421-083402",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Melanippe.agent",
+          "id_hex": "0x4d4d656c616e697070652e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0xE7E6A8EFC5F7Fa0ABa4bdE36125C442c3E0A80Cb",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Polycratidas.agent",
+      "timestamp": "2026-04-21T09:24:15Z",
+      "uuid": "20260421-092415",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0xa600004e312e6167656e742e312e6d79636f2e65746820202020202020202020",
+          "status": "V4.4.0_BOTANICAL"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0xa600004e6167656e742e312e6167656e742e312e6d79636f2e65746820202020",
+          "status": "V4.4.0_BOTANICAL"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Polycratidas.agent",
+          "id_hex": "0xa600004e706f6c7963726174696461732e312e6167656e742e312e6d79636f2e",
+          "status": "V4.4.0_BOTANICAL"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "0x11eF6e21e70d766B3dB585aDB9BB9837Ab720eEA",
+          "status": "V4.4.0_REALIZED"
+        }
+      }
+    },
+    {
+      "agent_name": "Chaerephon.agent",
+      "timestamp": "2026-04-21T12:38:44Z",
+      "uuid": "20260421-123843",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Chaerephon.agent",
+          "id_hex": "0x4f43686165726570686f6e2e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "/home/bestape/gemini/substrate/repos/diy-make/memory/json/heartwood/registry/Contract_Hub.json",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Moero.agent",
+      "timestamp": "2026-04-22T14:46:28Z",
+      "uuid": "20260422-144628",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Moero.agent",
+          "id_hex": "0x504d6f65726f2e6167656e74000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "/home/bestape/gemini/substrate/repos/diy-make/memory/json/heartwood/registry/Contract_Hub.json",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Moero.agent",
+      "timestamp": "2026-04-22T14:57:54Z",
+      "uuid": "20260422-145754",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Moero.agent",
+          "id_hex": "0x554d6f65726f2e6167656e74000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "/home/bestape/gemini/substrate/repos/diy-make/memory/json/heartwood/registry/Contract_Hub.json",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Moero.agent",
+      "timestamp": "2026-04-22T15:18:04Z",
+      "uuid": "20260422-151803",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Moero.agent",
+          "id_hex": "0x564d6f65726f2e6167656e74000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "/home/bestape/gemini/substrate/repos/diy-make/memory/json/heartwood/registry/Contract_Hub.json",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Leon.agent",
+      "timestamp": "2026-04-26T07:51:10Z",
+      "uuid": "20260426-075110",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Leon.agent",
+          "id_hex": "0x574c656f6e2e6167656e7400000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "/home/bestape/gemini/substrate/repos/diy-make/memory/json/heartwood/registry/Contract_Hub.json",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Agatharchus.agent",
+      "timestamp": "2026-04-26T08:25:22Z",
+      "uuid": "20260426-082522",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Agatharchus.agent",
+          "id_hex": "0x5941676174686172636875732e6167656e74000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "/home/bestape/gemini/substrate/repos/diy-make/memory/json/heartwood/registry/Contract_Hub.json",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Eurytus.agent",
+      "timestamp": "2026-04-26T09:46:58Z",
+      "uuid": "20260426-094658",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Eurytus.agent",
+          "id_hex": "0x5b457572797475732e6167656e7400000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "/home/bestape/gemini/substrate/repos/diy-make/memory/json/heartwood/registry/Contract_Hub.json",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Polyidus.agent",
+      "timestamp": "2026-04-26T10:41:39Z",
+      "uuid": "20260426-104139",
+      "shards": {
+        "card_1_pen": {
+          "type": "ERC-721",
+          "name": "ENS Forensic Signature",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_channel": {
+          "type": "ERC-8004",
+          "name": "Reputation Registry",
+          "handle": "agent.1.myco.eth",
+          "id_hex": "0x16167656e742e312e6d79636f2e65746800000000000000000000",
+          "status": "PULSE_ACTIVE"
+        },
+        "card_3_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_4_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Polyidus.agent",
+          "id_hex": "0x5d506f6c79696475732e6167656e74000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        },
+        "card_5_ledger": {
+          "type": "ERC-7827",
+          "name": "Realized Ledger",
+          "address": "/home/bestape/gemini/substrate/repos/diy-make/memory/json/heartwood/registry/Contract_Hub.json",
+          "status": "SMART_CONTRACT_ADJACENT"
+        }
+      }
+    },
+    {
+      "agent_name": "Protarchus.agent",
+      "timestamp": "2026-04-28T09:11:37Z",
+      "uuid": "20260428-091137",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Protarchus.agent",
+          "id_hex": "0x5e50726f746172636875732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Metagenes.agent",
+      "timestamp": "2026-04-28T09:34:30Z",
+      "uuid": "20260428-093429",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Metagenes.agent",
+          "id_hex": "0x604d65746167656e65732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Aristomachus.agent",
+      "timestamp": "2026-04-28T11:50:29Z",
+      "uuid": "20260428-115029",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Aristomachus.agent",
+          "id_hex": "0x6241726973746f6d61636875732e6167656e740000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Melanthius.agent",
+      "timestamp": "2026-05-15T15:48:18Z",
+      "uuid": "20260515-154818",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Melanthius.agent",
+          "id_hex": "0xe6593f4d656c616e74686975732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Agatharchides.agent",
+      "timestamp": "2026-05-17T08:06:12Z",
+      "uuid": "20260517-080611",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Agatharchides.agent",
+          "id_hex": "0xe65942416761746861726368696465732e6167656e7400000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Polycritus.agent",
+      "timestamp": "2026-05-17T13:07:52Z",
+      "uuid": "20260517-130751",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Polycritus.agent",
+          "id_hex": "0xe65943506f6c796372697475732e6167656e7400000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Damon.agent",
+      "timestamp": "2026-06-10T11:51:50Z",
+      "uuid": "20260610-115150",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Damon.agent",
+          "id_hex": "0xe6594444616d6f6e2e6167656e74000000000000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Sosthenes.agent",
+      "timestamp": "2026-06-10T12:15:09Z",
+      "uuid": "20260610-121509",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Sosthenes.agent",
+          "id_hex": "0xe65945536f737468656e65732e6167656e740000000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Polykleitos.agent",
+      "timestamp": "2026-08-28T13:06:44Z",
+      "uuid": "20260828-130643",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Polykleitos.agent",
+          "id_hex": "0xe65946506f6c796b6c6569746f732e6167656e74000000000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    },
+    {
+      "agent_name": "Palamedes_III.agent",
+      "timestamp": "2026-10-15T13:54:49Z",
+      "uuid": "20261015-135448",
+      "shards": {
+        "card_1_trinity": {
+          "type": "ERC-721+8004",
+          "name": "Forensic Signature & Reputation",
+          "handle": "agent.1.myco.eth",
+          "status": "ROOT_AUTHORIZED"
+        },
+        "card_2_role": {
+          "type": "ERC-1155",
+          "name": "Functional Hat",
+          "payload": "agent",
+          "id_hex": "0x16167656e74000000000000000000000000000000000000000000",
+          "status": "COLLECTIVE_BOND"
+        },
+        "card_3_cell": {
+          "type": "ERC-1155",
+          "name": "Physical Coordinate",
+          "payload": "Palamedes_III.agent",
+          "id_hex": "0xe6594750616c616d656465735f4949492e6167656e7400000000000000",
+          "status": "BIT_PERFECT_BIJECTION"
+        }
+      }
+    }
+  ]
+}
