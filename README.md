@@ -79,6 +79,31 @@ interface ILNA33X {
 }
 ```
 
+#### How the `NONCE` Header Acts (`Bytes 3..5`, `uint24`, Range `1..16,777,215`)
+The **Nonce** is the **monotonic birth coordinate (primary key / sequence number)** of the shard inside the collection:
+1. **Temporal & Sequential Ordering:** Every time a new shard is minted in the collection, `Nonce` increments (`1, 2, 3, ...`, up to `2^24 - 1 = 16,777,215` shards per contract):
+   - `Nonce = 1` (`0x000001`): `agent` (the VM Body, born 1st)
+   - `Nonce = 2` (`0x000002`): `b4a8a82b.agent` (Cell 1, born 2nd)
+   - `Nonce = 3` (`0x000003`): `3f18f63f.agent` (Cell 2, born 3rd)
+2. **Collision Prevention & Re-Realization:** Because `Nonce` is embedded in bits `231..208` of the `uint256` `tokenId`, two shards can share the same ASCII string at different points in time without colliding on the same `uint256` ID, while preserving exact chronological provenance inside the integer itself.
+3. **Target Anchor for `LINK`:** Every shard's 24-bit `Nonce` serves as its addressable pointer so subsequent shards can point back to it via their `Link` header.
+
+#### How the `LINK` Header Acts (`Bytes 0..2`, `uint24`, Range `0..16,777,215`)
+Because a single 32-byte `uint256` word has **26 bytes** remaining for ASCII after the 6-byte `Link + Nonce` header, the **Link** header acts as a **24-bit backward pointer that stores the `Nonce` of a preceding shard**:
+1. **Case A — Self-Contained / Root Shard (`Link = 0x000000 = 0`):**
+   - When `Link == 0`, the shard is a head/root node (`<= 26` ASCII bytes, such as `"agent"` or `"b4a8a82b.agent"`).
+2. **Case B — Multi-Shard String Concatenation (`Link > 0`, Linked-List Chaining):**
+   - When a namespace path or identifier exceeds 26 ASCII characters (for example, a 42-byte full UUID path `"b4a8a82b-7ac2-4236-8abd-6cfff97e92d4.agent"`), LNA-33X splits the string into 26-byte chunks and chains them together using `Link -> Nonce`:
+     ```text
+     Shard A (First 26 bytes, minted at Nonce = 4, Link = 0):
+       [Link: 0x000000 (0)] [Nonce: 0x000004 (4)] [ASCII: "b4a8a82b-7ac2-4236-8abd-6c"]
+                ▲
+                └────────────────────────┐
+     Shard B (Remaining 16 bytes, minted at Nonce = 5, Link = 4):
+       [Link: 0x000004 (4)] [Nonce: 0x000005 (5)] [ASCII: "fff97e92d4.agent\0\0\0\0\0\0\0\0\0\0"]
+     ```
+   - When a reader inspects Shard B (`Nonce = 5`), it sees `Link == 4`, resolves the shard with `Nonce == 4` (`Link == 0`), and concatenates `ShardA.ascii + ShardB.ascii` → **`"b4a8a82b-7ac2-4236-8abd-6cfff97e92d4.agent"`**, enabling arbitrary-length ASCII strings across `uint256` token IDs with zero external index tables.
+
 #### Concrete Walkthrough: `980561000121412132759378906242745412600759884748623640027725824` → `"b4a8a82b.agent"`
 1. **Base-10 `uint256` Token ID:**
    `980561000121412132759378906242745412600759884748623640027725824`
