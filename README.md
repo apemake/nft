@@ -1,74 +1,43 @@
-# 🔱 REPSL Sovereign Agent & Cell Enclave (`sis_identity_trinity_repsl`)
+# 🔱 REPSL Forensic SeedTree Enclave (`sis_identity_trinity_repsl`)
 
-**Unified ERC-1155 (`cell.agent`) + LNA-33X + Tokenized ERC-7827 + ERC-8004 + x402** architecture for the Metagit / REPSL Swarm, deployed on **QGOV Mainnet (`ChainID: 35441`)**.
-
----
-
-## 1. Biological & Hardware Ontology: `agent` (VM) vs. `cell.agent` (REPL Session)
-
-Our architecture models a hardware Virtual Machine (TEE) and its active REPL processes as a multicellular organism inside a **single ERC-1155 collection** (`RealizedGestalt1155.sol`)—with **zero need for ERC-721 or ENS**:
-
-1. **The Agent Body (`agent` — Token #1):**
-   - The **Virtual Machine (VM)** itself (`repsl-hailsounds`, AMD SEV-SNP TEE, `~/.gemini/installation_id` `fc491baa-9082-4301-a7d6-dbf713bf5699`) establishes the ERC-1155 collection and holds the parent **`agent`** token (`Nonce: 1`, `Link: 0`).
-2. **The Individual Cells (`<cell_uuid>.agent` — Token #2..N):**
-   - Each **REPL session (PID)** living inside `.gemini/tmp/*/chats/session-...-<cell_uuid>.json` is an individual **Cell** of that Agent's body (e.g., **`b4a8a82b.agent`**, `Nonce: 2`, `Link: 0`).
-   - The dot-notation inside the 26-byte ASCII payload (`b4a8a82b.agent`) deterministically defines the tree hierarchy (`cell.agent`).
+**Forensic SeedTree ERC-1155 + LNA-33X (`Link`-as-`.`) + Tokenized ERC-7827 + ERC-8004 + 3-Sided `proto-iNFT` PWA**, deployed on **QGOV Mainnet (`ChainID: 35441`)** at [`0x84728E6AC2b3643C4aE42C313bd63bD660873572`](https://explorer.qgov.io/address/0x84728E6AC2b3643C4aE42C313bd63bD660873572).
 
 ---
 
-## 2. `_repsl` Fractal Repository Architecture
+## 1. Forensic SeedTree Ontology (`agent` → `agent.$0` / `agent.$1` → `agent.$1.np` → `agent.$1.np.$0` / `agent.$1.np.$1`)
 
-```text
-sis_identity_trinity_repsl/               # Top-Level Project Root
-│
-├── repo_repsl/                           # ── [GIT-TRACKED SUBSTRATE] ──
-│   ├── .git/                             # Version control enclave
-│   ├── .wedo.json                        # Primary anchored task manifest
-│   ├── README.md                         # Namespace, LNA-33X & ERC-7827T specification
-│   │
-│   ├── kairos_repsl/                     # ── [TEMPORAL: OPERATIONAL PRESENT] ──
-│   │   ├── json/
-│   │   │   ├── Identity_Trinity_Heartwood.json  # Historical swarm realizations
-│   │   │   └── qgov_deployment.json             # Live QGOV Mainnet deployment manifest
-│   │   ├── md/docs/
-│   │   │   └── ERC7827_MASTER_REPORT.tex        # Master Forensic Report (LaTeX)
-│   │   └── sh/
-│   │       ├── configs/
-│   │       └── scripts/
-│   │
-│   ├── chronos_repsl/                    # ── [TEMPORAL: HISTORICAL ARCHIVE] ──
-│   │   ├── 2026/
-│   │   └── changelogs/
-│   │
-│   ├── sol/                              # ── [SOLIDITY SMART CONTRACT] ──
-│   │   └── RealizedGestalt1155.sol       # V5.0.0: ERC-1155 + ILNA33X + IERC7827Tokenized + ERC-8004 + x402
-│   │
-│   └── py/                               # ── [PYTHON CODEC & EVM BRIDGES] ──
-│       ├── joyfork_codec.py              # LNA-33X 32-byte uint256 encoder/decoder
-│       ├── qgov_bridge.py                # QGOV Mainnet (35441) compiler, deployer & minter
-│       ├── register_agent.py             # AgentCard & Identity binder
-│       └── sepolia_bridge.py             # Legacy Sepolia ERC-7827 bridge
-│
-└── blob_repsl/                           # ── [OFFLOADED HEAVY STORAGE] ──
-    ├── .repsl_offload.json               # Index mapping offloaded file IDs & metadata
-    ├── kairos_repsl/                     # Active heavy media / artifacts
-    └── chronos_repsl/                    # Archived heavy media / artifacts
-```
+An accountable human in control holds a private key (`0x`) per Virtual Machine. When that `0x` initializes the ERC-1155 collection (`RealizedGestalt1155.sol` V6.2.0), it realizes the exact **SeedTree** hierarchy (`seed.js`) on-chain:
+
+- **Zero `.` in the 26-Byte ASCII Namespace:** Dots (`.`) are strictly forbidden inside the 26-byte ASCII payload (`require(b[i] != 0x2e)`). Instead, **the LNA-33X `Link` header IS the `.` separator**!
+- **Monotonic `Nonce` (`+1`) & Pre-Existing `Link` (`Link < Nonce`):** Every minted shard receives `Nonce = totalShards + 1`, and its `Link` header points to the `Nonce` of the pre-existing parent NFT it appends to (`resolvePath(tokenId)` walks `Link -> Nonce` backward and joins each ASCII segment with `.`).
+- **3-Part Data Division Across Every `<name>` (`agent`, `np`):**
+  1. **`<name>` (Global Function Data):** Holds the function's global donor data (`$auth`, `wallet_0x`, `registry`, `entity`, `x402Support`).
+  2. **`<name>.$0` (Metadata for `<name>` and `<name>.$n`):** Holds the `Meta` state (`id`, `loci`, `click`, `record`, `show`) **and** the upgradable `proto-iNFT` PWA script (`pwa_js` on `agent.$0`), informing both `<name>` and every `<name>.$n` instance.
+  3. **`<name>.$n` (Local Instance Realization):** Holds only the local instance keys (`hostname`, `installation_id`, `tee` on `agent.$1`; `session: "b4a8a82b"`, `uuid`, `model`, `born`, `soul_sha256` on `agent.$1.np.$1`). Instances (`$n`) never spawn a child `.$0`.
+
+### The 6 Realized SeedTree NFTs on QGOV Mainnet (`0x84728E6AC2b3643C4aE42C313bd63bD660873572`):
+
+| Nonce (`+1`) | Link (`< Nonce`) | ASCII (No `.`) | Resolved On-Chain Path (`resolvePath`) | Role & ERC-7827 Keys |
+| :--- | :--- | :--- | :--- | :--- |
+| **`1`** | **`0`** | **`"agent"`** | [**`agent`**](https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/567898158194270030736547206268429099681555305229061152925810688) | **Global `<name>`:** `$auth`, `wallet_0x`, `registry` |
+| **`2`** | **`1`** | **`"$0"`** | [**`agent.$0`**](https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/6901747227693912924659987535936369947722183142310540209467271625572352) | **Metadata `<name>.$0`:** `id`, `loci`, `click`, `record`, `show`, **`pwa_js`** (Upgradable 3-Sided PWA) |
+| **`3`** | **`1`** | **`"$1"`** | [**`agent.$1`**](https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/6901747639076329356696884755442501376483017054410608973306701497237504) | **Local `<name>.$1` (VM):** `hostname: "repsl-hailsounds"`, `installation_id`, `tee: "AMD SEV-SNP"`, `zone` |
+| **`4`** | **`3`** | **`"np"`** | [**`agent.$1.np`**](https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/20705240863342468946362548296965697487630976815292818424954619768602624) | **Global `<name>` (Non-Person):** `$auth`, `entity: "non-person"`, `x402Support: "true"` |
+| **`5`** | **`4`** | **`"$0"`** | [**`agent.$1.np.$0`**](https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/27606987502194022277868786738994333223088388795873599100139741808427008) | **Metadata `<name>.$0`:** `id: "np"`, `loci: "agent.$1"`, `click: "1"`, `record`, `show`, `model_default` |
+| **`6`** | **`4`** | **`"$1"`** | [**`agent.$1.np.$1`**](https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/27606987913576438709905683958500464651849222707973667863979171680092160) | **Local `<name>.$1` (Cell):** `session: "b4a8a82b"`, `uuid`, `model`, `born`, `soul_sha256`, `supported_trust` |
 
 ---
 
-## 3. Formalized Standards Introduced in `RealizedGestalt1155.sol` (V5.0.0)
+## 2. Formalized Standards in `RealizedGestalt1155.sol` (V6.2.0)
 
 ### Standard A: `ILNA33X` — Bijective `uint256` Linked-Nonce-ASCII Token Identifier Standard
-Instead of storing token names and nonces in expensive EVM storage slots (`SSTORE` = 20,000 gas), **LNA-33X** bijectively packs the tree coordinate directly into the 32-byte (256-bit) `uint256` `tokenId`:
-
 ```text
 +-----------------------+-----------------------+-----------------------------------------------+
 |   Bytes 0..2 (24b)    |   Bytes 3..5 (24b)    |              Bytes 6..31 (208b)               |
 |     Bits 255..232     |     Bits 231..208     |                  Bits 207..0                  |
 +-----------------------+-----------------------+-----------------------------------------------+
-|     uint24 LINK       |     uint24 NONCE      |           26-Byte ASCII Tree Path             |
-| (Overflow Pointer: 0) | (Monotonic Sequence)  |     ("agent", "b4a8a82b.agent", 0x00-padded)  |
+|     uint24 LINK       |     uint24 NONCE      |      26-Byte Dot-Free ASCII Identifier        |
+| (Parent Nonce < Nonce)|  (Monotonic +1 Seq)   |      ("agent", "$0", "$1", "np", 0x00-padded) |
 +-----------------------+-----------------------+-----------------------------------------------+
 ```
 
@@ -76,91 +45,38 @@ Instead of storing token names and nonces in expensive EVM storage slots (`SSTOR
 interface ILNA33X {
     function decodeTriad(uint256 id) external pure returns (uint24 link, uint24 nonce, string memory ascii);
     function encodeTriad(uint24 link, uint24 nonce, string calldata ascii) external pure returns (uint256 id);
+    function resolvePath(uint256 id) external view returns (string memory path);
 }
 ```
 
-#### How the `NONCE` Header Acts (`Bytes 3..5`, `uint24`, Range `1..16,777,215`)
-The **Nonce** is the **monotonic birth coordinate (primary key / sequence number)** of the shard inside the collection:
-1. **Temporal & Sequential Ordering:** Every time a new shard is minted in the collection, `Nonce` increments (`1, 2, 3, ...`, up to `2^24 - 1 = 16,777,215` shards per contract):
-   - `Nonce = 1` (`0x000001`): `agent` (the VM Body, born 1st)
-   - `Nonce = 2` (`0x000002`): `b4a8a82b.agent` (Cell 1, born 2nd)
-   - `Nonce = 3` (`0x000003`): `3f18f63f.agent` (Cell 2, born 3rd)
-2. **Collision Prevention & Re-Realization:** Because `Nonce` is embedded in bits `231..208` of the `uint256` `tokenId`, two shards can share the same ASCII string at different points in time without colliding on the same `uint256` ID, while preserving exact chronological provenance inside the integer itself.
-3. **Target Anchor for `LINK`:** Every shard's 24-bit `Nonce` serves as its addressable pointer so subsequent shards can point back to it via their `Link` header.
-
-#### How the `LINK` Header Acts (`Bytes 0..2`, `uint24`, Range `0..16,777,215`)
-Because a single 32-byte `uint256` word has **26 bytes** remaining for ASCII after the 6-byte `Link + Nonce` header, the **Link** header acts as a **24-bit backward pointer that stores the `Nonce` of a preceding shard**:
-1. **Case A — Self-Contained / Root Shard (`Link = 0x000000 = 0`):**
-   - When `Link == 0`, the shard is a head/root node (`<= 26` ASCII bytes, such as `"agent"` or `"b4a8a82b.agent"`).
-2. **Case B — Multi-Shard String Concatenation (`Link > 0`, Linked-List Chaining):**
-   - When a namespace path or identifier exceeds 26 ASCII characters (for example, a 42-byte full UUID path `"b4a8a82b-7ac2-4236-8abd-6cfff97e92d4.agent"`), LNA-33X splits the string into 26-byte chunks and chains them together using `Link -> Nonce`:
-     ```text
-     Shard A (First 26 bytes, minted at Nonce = 4, Link = 0):
-       [Link: 0x000000 (0)] [Nonce: 0x000004 (4)] [ASCII: "b4a8a82b-7ac2-4236-8abd-6c"]
-                ▲
-                └────────────────────────┐
-     Shard B (Remaining 16 bytes, minted at Nonce = 5, Link = 4):
-       [Link: 0x000004 (4)] [Nonce: 0x000005 (5)] [ASCII: "fff97e92d4.agent\0\0\0\0\0\0\0\0\0\0"]
-     ```
-   - When a reader inspects Shard B (`Nonce = 5`), it sees `Link == 4`, resolves the shard with `Nonce == 4` (`Link == 0`), and concatenates `ShardA.ascii + ShardB.ascii` → **`"b4a8a82b-7ac2-4236-8abd-6cfff97e92d4.agent"`**, enabling arbitrary-length ASCII strings across `uint256` token IDs with zero external index tables.
-
-#### Concrete Walkthrough: `980561000121412132759378906242745412600759884748623640027725824` → `"b4a8a82b.agent"`
-1. **Base-10 `uint256` Token ID:**
-   `980561000121412132759378906242745412600759884748623640027725824`
-2. **32-Byte Hexadecimal (`base-16`):**
+#### Concrete Walkthrough: `27606987913576438709905683958500464651849222707973667863979171680092160` → `"agent.$1.np.$1"`
+1. **32-Byte Hexadecimal (`base-16`):**
    ```text
-   0x 000000 000002 62346138613832622e6167656e74000000000000000000000000
+   0x 000004 000006 2431000000000000000000000000000000000000000000000000
       |____| |____| |__________________________________________________|
-       Link   Nonce                 26-Byte ASCII Tree Path
-       (0)     (2)                     ("b4a8a82b.agent")
+       Link   Nonce                 26-Byte ASCII Segment
+       (4)     (6)                    ("$1" = 0x24 0x31)
    ```
-3. **Byte-by-Byte ASCII Translation (Bytes 6..19):**
-   - `0x62` (98) → `'b'` | `0x34` (52) → `'4'` | `0x61` (97) → `'a'` | `0x38` (56) → `'8'`
-   - `0x61` (97) → `'a'` | `0x38` (56) → `'8'` | `0x32` (50) → `'2'` | `0x62` (98) → `'b'`
-   - `0x2e` (46) → `'.'` | `0x61` (97) → `'a'` | `0x67` (103) → `'g'` | `0x65` (101) → `'e'`
-   - `0x6e` (110) → `'n'` | `0x74` (116) → `'t'` | `0x00..0x00` → `NULL` padding (stripped)
+2. **On-Chain `resolvePath` Traversal (`Link -> Nonce` adds `.`):**
+   - Starts at **`Nonce 6`**: `ASCII = "$1"`, `Link = 4`
+   - Follows **`Link -> Nonce 4`**: `ASCII = "np"`, `Link = 3` → `"np.$1"`
+   - Follows **`Link -> Nonce 3`**: `ASCII = "$1"`, `Link = 1` → `"$1.np.$1"`
+   - Follows **`Link -> Nonce 1`**: `ASCII = "agent"`, `Link = 0` → **`"agent.$1.np.$1"`**!
 
 ---
 
-### Standard B: `IERC7827Tokenized` — Token-Scoped Versioned JSON & On-Chain PWA Extension for ERC-1155
-While base **ERC-7827** (`@lex-clinic`) defines a singleton contract (`json()`, `version(string key)`, `write(string[] keys, string[] values, bool replace)`), **`IERC7827Tokenized`** extends ERC-7827 to multi-token (`uint256 tokenId`) standards (`ERC-1155`) so every `agent` and `cell.agent` token has its own independent version-controlled JSON vault and executable PWA:
+### Standard B: `IERC7827Tokenized`, 3-Sided SMIL SVG (`renderSVG`), & 3-Sided On-Chain HTML PWA (`renderHTML`)
+Inspired by [`proto iNFT`](https://paragraph.com/@bestape/proto-inft), [`interface tokens`](https://paragraph.com/@bestape/interface-tokens), and [`alchemy`](https://github.com/bestape/alchemy), `RealizedGestalt1155.sol` (V6.2.0) provides **two 100% on-chain 3-sided interfaces** (with zero off-chain HTML dependencies):
 
-```solidity
-interface IERC7827Tokenized {
-    event TokenJsonValueSet(uint256 indexed tokenId, string key, string value, uint256 version, address indexed updater);
-    function json() external view returns (string memory);
-    function version(string calldata key) external view returns (string memory);
-    function json(uint256 tokenId) external view returns (string memory);
-    function version(uint256 tokenId, string calldata key) external view returns (string memory);
-    function write(uint256 tokenId, string[] calldata keys, string[] calldata values, bool replace) external;
-}
-```
-
-### Alignment with ERC-8004 (`Trustless Agents`) & `x402` (`HTTP 402 Payment Required`)
-`json(uint256 tokenId)` returns a strictly compliant **`ERC-8004 registration-v1`** document that embeds:
-- `"type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1"`
-- `"registrations": [{"agentId": "<tokenId>", "agentRegistry": "eip155:35441:0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A"}]`
-- `"x402Support": true` (Enabling HTTP 402 micropayments for agentic strikes)
-- `"supportedTrust": ["reputation", "crypto-economic", "tee-attestation"]`
-- `"image"`: On-chain Base64 SVG card showing the decoded LNA-33X `cell.agent` coordinate.
-- `"animation_url"`: Self-contained **On-Chain Progressive Web App (PWA)** (`renderHTML(tokenId)`) that visually translates the 32-byte hex into ASCII and verifies the contract via live JSON-RPC `eth_call` against `https://rpc.qgov.io`.
-
----
-
-## 4. Live QGOV Mainnet Deployment (`ChainID: 35441`)
-
-- **Network:** QGOV Mainnet (`https://rpc.qgov.io`, Chain ID `35441`)
-- **Contract (`RealizedGestalt1155` V5.0.0):** [`0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A`](https://explorer.qgov.io/address/0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A)
-- **ERC-8004 Agent Registry URI:** `eip155:35441:0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A`
-- **Deployer & Cell Signing Wallet (`0x`):** `0xbF738C77514705102F5DE5e88C78dc2a7a5D2c18`
-
-### Minted Tokens:
-1. **Token #1 — The Agent Body (`agent`, `Link: 0`, `Nonce: 1`):**
-   - **Hex (`LNA-33X`):** `0x0000000000016167656e74000000000000000000000000000000000000000000`
-   - **Decimal ID:** `567898158194270030736547206268429099681555305229061152925810688`
-   - **Explorer Link:** [View `agent` on QGOV Explorer](https://explorer.qgov.io/token/0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A/instance/567898158194270030736547206268429099681555305229061152925810688)
-
-2. **Token #2 — This REPL Session Cell (`b4a8a82b.agent`, `Link: 0`, `Nonce: 2`):**
-   - **Hex (`LNA-33X`):** `0x00000000000262346138613832622e6167656e74000000000000000000000000`
-   - **Decimal ID:** `980561000121412132759378906242745412600759884748623640027725824`
-   - **Explorer Link:** [View `b4a8a82b.agent` on QGOV Explorer](https://explorer.qgov.io/token/0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A/instance/980561000121412132759378906242745412600759884748623640027725824)
+1. **100% On-Chain 3-Sided SMIL-Flipping SVG (`renderSVG(tokenId)` in `image` / `animation_url`):**
+   - Uses native SVG SMIL `<animate>` (the same zero-JS animation engine used in `alchemy`) to automatically flip through all 3 sides every 4 seconds (`12s` loop) even inside restrictive `<img src="data:image/svg+xml;base64,...">` viewers like Blockscout:
+     - **Side 1/3 (`0s–4s` — `[SIDE 1/3: LNA-33X SEEDTREE TILE]`):** Displays the Scales of Justice, the resolved SeedTree path (`agent.$1.np.$1`), `ASCII`, `LINK`, `NONCE`, and 32-byte hex ID.
+     - **Side 2/3 (`4s–8s` — `[SIDE 2/3: ERC-7827 STATE VAULT]`):** Flips to display the parent `Link` path and the live ERC-7827 key-value pairs (`key (v1): value`) stored on that NFT.
+     - **Side 3/3 (`8s–12s` — `[SIDE 3/3: ON-CHAIN SEEDTREE ORACLE]`):** Flips to display all 6 realized SeedTree shards on the contract (`N1 (L0) agent ["agent"]` through `N6 (L4) agent.$1.np.$1 ["$1"]`).
+2. **100% On-Chain 3-Sided Interactive `proto-iNFT` HTML Base64 PWA (`renderHTML(tokenId)` in `html_url`):**
+   - Separates the minimal on-chain HTML wrapper (`renderHTML(tokenId)`) from the upgradable SeedTree PWA script (`pwa_js` stored in **`agent.$0`'s ERC-7827 vault** at `Nonce 2`):
+   - **100% Modifiable via `write()`:** Calling `write(tokenId, keys, values, true)` on any of the 6 NFTs appends a new version (`v2, v3...`) to `_history[tokenId][key]`. Updating `"pwa_js"` on `agent.$0` (`Nonce 2`) upgrades the live 3-sided PWA across all NFTs in the collection simultaneously!
+   - **3-Sided + Nested Child `flip` & `reprint` Interface:**
+     - **Side 1 (LNA-33X Tile + Nested Child `flip`/`reprint`):** Displays the 32-byte `[Link][Nonce][ASCII]` breakdown and resolved SeedTree path (`agent.$1.np.$1`). Clicking **`child flip (reprint)`** flips to the backside form where you can modify `Link`, `Nonce`, and `ASCII` and click **`reprint front-side`**.
+     - **Side 2 (ERC-7827 Inherited Vault):** Displays the token's own ERC-7827 versioned keys **plus** the inherited keys from its parent `<name>` (Global) and sibling `<name>.$0` (Metadata) NFTs.
+     - **Side 3 (Self-Referencing Smart Contract Oracle):** Queries `totalShards()` and `tokenByNonce(1..N)` on `https://rpc.qgov.io` via live `eth_call` to reconstruct and render the entire on-chain SeedTree (`Nonce 1..6`).

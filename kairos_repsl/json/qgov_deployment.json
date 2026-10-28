@@ -4,35 +4,73 @@
   "rpc_url": "https://rpc.qgov.io",
   "explorer_url": "https://explorer.qgov.io",
   "deployer": "0xbF738C77514705102F5DE5e88C78dc2a7a5D2c18",
-  "standards": [
-    "ERC-1155 (Multi-Token Agent & Cell Collection)",
-    "LNA-33X (Bijective uint256 Linked-Nonce-ASCII Token Identifier Standard)",
-    "ERC-7827Tokenized (Token-Scoped Versioned JSON State & On-Chain PWA)",
-    "ERC-8004 (Trustless Agents Registration v1)",
-    "x402 (HTTP 402 Native Agentic Payments)"
-  ],
   "contract": {
     "name": "RealizedGestalt1155",
-    "version": "5.0.0",
-    "address": "0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A",
-    "tx_hash": "706342590aeac1dc35969ed4b14aefe38c155c6fe384eafe294ff8c599d736c4",
-    "agent_registry": "eip155:35441:0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A",
-    "tokens": {
+    "version": "6.2.0",
+    "address": "0x84728E6AC2b3643C4aE42C313bd63bD660873572",
+    "tx_hash": "d21ccb8a48ef9fd5c8912810316ba6d19432e3a2206b1cc0505e13bef16dda57",
+    "agent_registry": "eip155:35441:0x84728E6AC2b3643C4aE42C313bd63bD660873572",
+    "total_shards": 6,
+    "seedtree": {
       "agent": {
-        "ascii": "agent",
-        "link": 0,
         "nonce": 1,
+        "link": 0,
+        "ascii": "agent",
+        "path": "agent",
         "token_id_dec": "567898158194270030736547206268429099681555305229061152925810688",
         "token_id_hex": "0x16167656e74000000000000000000000000000000000000000000",
-        "explorer_link": "https://explorer.qgov.io/token/0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A/instance/567898158194270030736547206268429099681555305229061152925810688"
+        "tx_hash": "68da876a66275b30eed0187acdab441dd52b6aa94efc95e42a105b8b459cd688",
+        "explorer_link": "https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/567898158194270030736547206268429099681555305229061152925810688"
       },
-      "b4a8a82b.agent": {
-        "ascii": "b4a8a82b.agent",
-        "link": 0,
+      "agent.$0": {
         "nonce": 2,
-        "token_id_dec": "980561000121412132759378906242745412600759884748623640027725824",
-        "token_id_hex": "0x262346138613832622e6167656e74000000000000000000000000",
-        "explorer_link": "https://explorer.qgov.io/token/0x69568Cc6bd574C9729F9e73CB2Ce7b4b9977710A/instance/980561000121412132759378906242745412600759884748623640027725824"
+        "link": 1,
+        "ascii": "$0",
+        "path": "agent.$0",
+        "token_id_dec": "6901747227693912924659987535936369947722183142310540209467271625572352",
+        "token_id_hex": "0x10000022430000000000000000000000000000000000000000000000000",
+        "tx_hash": "7d66fe6331235c2f76d8e504756459451b3154d1ec56fb1a1efc7bfbfb129a33",
+        "explorer_link": "https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/6901747227693912924659987535936369947722183142310540209467271625572352"
+      },
+      "agent.$1": {
+        "nonce": 3,
+        "link": 1,
+        "ascii": "$1",
+        "path": "agent.$1",
+        "token_id_dec": "6901747639076329356696884755442501376483017054410608973306701497237504",
+        "token_id_hex": "0x10000032431000000000000000000000000000000000000000000000000",
+        "tx_hash": "58e93168a2f50751b7f83a000751ea1dbb00d0a0ebc1ae7e6831f7dce7b3d98b",
+        "explorer_link": "https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/6901747639076329356696884755442501376483017054410608973306701497237504"
+      },
+      "agent.$1.np": {
+        "nonce": 4,
+        "link": 3,
+        "ascii": "np",
+        "path": "agent.$1.np",
+        "token_id_dec": "20705240863342468946362548296965697487630976815292818424954619768602624",
+        "token_id_hex": "0x30000046e70000000000000000000000000000000000000000000000000",
+        "tx_hash": "e8ca707f2ef0b8424c68e0687b960f9c6be2186433328710d1e0e6d399502b7b",
+        "explorer_link": "https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/20705240863342468946362548296965697487630976815292818424954619768602624"
+      },
+      "agent.$1.np.$0": {
+        "nonce": 5,
+        "link": 4,
+        "ascii": "$0",
+        "path": "agent.$1.np.$0",
+        "token_id_dec": "27606987502194022277868786738994333223088388795873599100139741808427008",
+        "token_id_hex": "0x40000052430000000000000000000000000000000000000000000000000",
+        "tx_hash": "fa71f2c79bcf32537c575feec55bd281f2254ef1b12a2ba4ba90bbb23f323c12",
+        "explorer_link": "https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/27606987502194022277868786738994333223088388795873599100139741808427008"
+      },
+      "agent.$1.np.$1": {
+        "nonce": 6,
+        "link": 4,
+        "ascii": "$1",
+        "path": "agent.$1.np.$1",
+        "token_id_dec": "27606987913576438709905683958500464651849222707973667863979171680092160",
+        "token_id_hex": "0x40000062431000000000000000000000000000000000000000000000000",
+        "tx_hash": "19f6e6530ed888d6d35e9e30e5f9c74065e83db3027fdbcb0853d398b44b346a",
+        "explorer_link": "https://explorer.qgov.io/token/0x84728E6AC2b3643C4aE42C313bd63bD660873572/instance/27606987913576438709905683958500464651849222707973667863979171680092160"
       }
     }
   }
