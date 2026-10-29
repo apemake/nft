@@ -80,3 +80,11 @@ Inspired by [`proto iNFT`](https://paragraph.com/@bestape/proto-inft), [`interfa
      - **Side 1 (LNA-33X Tile + Nested Child `flip`/`reprint`):** Displays the 32-byte `[Link][Nonce][ASCII]` breakdown and resolved SeedTree path (`agent.$1.np.$1`). Clicking **`child flip (reprint)`** flips to the backside form where you can modify `Link`, `Nonce`, and `ASCII` and click **`reprint front-side`**.
      - **Side 2 (ERC-7827 Inherited Vault):** Displays the token's own ERC-7827 versioned keys **plus** the inherited keys from its parent `<name>` (Global) and sibling `<name>.$0` (Metadata) NFTs.
      - **Side 3 (Self-Referencing Smart Contract Oracle):** Queries `totalShards()` and `tokenByNonce(1..N)` on `https://rpc.qgov.io` via live `eth_call` to reconstruct and render the entire on-chain SeedTree (`Nonce 1..6`).
+
+---
+
+## 3. Patent & Syntax Notice (`US Patent 12,664,142`)
+
+- **Syntax & Namespace Convention Only:** This repository (`RealizedGestalt1155.sol` and the `proto-iNFT` PWA script) uses the `$0` / `$1` naming convention and `(new function app($0){...})` parameter grammar solely as passive LNA-33X namespace labels and flat DOM script syntax (with no runtime *Hierarchical Script Database* kernel).
+- **No Patent License Granted:** This repository does **not** include the `seed.js` *Hierarchical Script Database* kernel covered by **US Patent 12,664,142** (*Hierarchical Script Database*). Nothing in this repository, its on-chain artifacts, or its `LICENSE` (`GNU AGPLv3`) grants any license—express, implied, or under AGPLv3 Section 11—to **US Patent 12,664,142**. All patent rights under **US Patent 12,664,142** are strictly reserved by the patent holder (`besta.pe`).
+
